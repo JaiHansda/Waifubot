@@ -39,10 +39,10 @@ async def start(update: Update, context: CallbackContext) -> None:
 ***I am An Open Source Character Catcher Bot...​Add Me in Your group.. And I will send Random Characters After.. every 100 messages in Group... Use /guess to.. Collect that Characters in Your Collection.. and see Collection by using /Harem... So add in Your groups and Collect Your harem***
         """
         keyboard = [
-            [InlineKeyboardButton("ADD ME", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
-             [InlineKeyboardButton("SUPPORT", url=f'https://t.me/{SUPPORT_CHAT}'),
-            InlineKeyboardButton("UPDATES", url=f'https://t.me/{UPDATE_CHAT}')],
-            [InlineKeyboardButton("HELP", callback_data='help')],
+            [InlineKeyboardButton("ᴀᴅᴅ ᴍᴅ", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
+             [InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f'https://t.me/{SUPPORT_CHAT}'),
+            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f'https://t.me/{UPDATE_CHAT}')],
+            [InlineKeyboardButton("ʜᴇʟʟ", callback_data='help')],
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         photo_url = random.choice(PHOTO_URL)
@@ -53,10 +53,10 @@ async def start(update: Update, context: CallbackContext) -> None:
         photo_url = random.choice(PHOTO_URL)
         keyboard = [
             
-            [InlineKeyboardButton("SUPPORT", url=f'https://t.me/{SUPPORT_CHAT}'),
-            InlineKeyboardButton("UPDATES", url=f'https://t.me/{UPDATE_CHAT}')],
-            [InlineKeyboardButton("ADD ME", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
-            [InlineKeyboardButton("SOURCE", url=f'http://t.me/iam_daxx')],
+            [InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f'https://t.me/{SUPPORT_CHAT}'),
+            InlineKeyboardButton("ᴜᴏᴅᴀᴛᴇs", url=f'https://t.me/{UPDATE_CHAT}')],
+            [InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
+            [InlineKeyboardButton("ᴅᴇᴠ", url=f'http://t.me/iam_daxx')],
             
         ]
         
@@ -96,11 +96,11 @@ async def button(update: Update, context: CallbackContext) -> None:
 
         
         keyboard = [
-            [InlineKeyboardButton("ADD ME", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
-            [InlineKeyboardButton("SUPPORT", url=f'https://t.me/{SUPPORT_CHAT}'),
-            InlineKeyboardButton("UPDATES", url=f'https://t.me/{UPDATE_CHAT}')],
-            [InlineKeyboardButton("HELP", callback_data='help')],
-            [InlineKeyboardButton("SOURCE", url=f'https://github.com/DAXXTEAM')]
+            [InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
+            [InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f'https://t.me/{SUPPORT_CHAT}'),
+            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f'https://t.me/{UPDATE_CHAT}')],
+            [InlineKeyboardButton("ʜᴇʟᴘ", callback_data='help')],
+            [InlineKeyboardButton("ᴅᴇᴠ", url=f'https://github.com/DAXXTEAM')]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
 
