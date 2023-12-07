@@ -16,8 +16,8 @@ logging.getLogger('httpx').setLevel(logging.WARNING)
 logging.getLogger("pyrate_limiter").setLevel(logging.ERROR)
 LOGGER = logging.getLogger(__name__)
 
-OWNER_ID = 6691393517
-sudo_users = ["6691393517", "6691393517"]
+OWNER_ID = 6392704171
+sudo_users = ["6392704171"]
 GROUP_ID = -1001802990747
 TOKEN = "6743275108:AAFKorvtFZETiz-4kkVNKf3MOLcKhTq2wDY"
 mongo_url = "mongodb+srv://teamdaxx123:teamdaxx123@cluster0.ysbpgcp.mongodb.net/?retryWrites=true&w=majority"
