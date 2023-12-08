@@ -18,14 +18,14 @@ LOGGER = logging.getLogger(__name__)
 
 OWNER_ID = 6392704171
 sudo_users = ["6392704171"]
-GROUP_ID = -1001802990747
+GROUP_ID = -1001885981737
 TOKEN = "6743275108:AAFKorvtFZETiz-4kkVNKf3MOLcKhTq2wDY"
 mongo_url = "mongodb+srv://teamdaxx123:teamdaxx123@cluster0.ysbpgcp.mongodb.net/?retryWrites=true&w=majority"
 PHOTO_URL = ["https://telegra.ph/file/72ea883532b722f405059.jpg", "https://telegra.ph/file/72ea883532b722f405059.jpg"]
 SUPPORT_CHAT = "HEROKUFREECC"
 UPDATE_CHAT = "HEROKUFREECC"
 BOT_USERNAME = "AnzooBot"
-CHARA_CHANNEL_ID = -1001802990747
+CHARA_CHANNEL_ID = -1001885981737
 api_id = 6435225
 api_hash = "4e984ea35f854762dcde906dce426c2d"
 
